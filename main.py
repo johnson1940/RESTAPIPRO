@@ -37,6 +37,10 @@ class UserSchema(ma.Schema):
 user_schema = UserSchema()
 users_schema = UserSchema(many=True)
 
+@app.route("/")
+def initial():
+    return '<h1>Hello Welcome To Flask API Development</h1>'
+
 # Add new user
 @app.route("/user", methods=['POST'])
 def add_user():
@@ -82,4 +86,4 @@ def deleteByUserId(id):
 
 # Run the app and create tables
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

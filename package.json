@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "are-we-there-yet": "^4.0.2",
+    "debug": "^4.3.7",
+    "gauge": "^5.0.2",
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.2",
+    "npmlog": "^7.0.1",
+    "rimraf": "^6.0.1",
+    "uuid": "^11.0.3"
+  }
+}
